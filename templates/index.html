@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="chat-container">
+    <div id="chat-box" class="chat-box">
+        <div class="bot-msg">Olá! Sou seu assistente de investimentos. Como posso te ajudar a entender o mercado hoje?</div>
+    </div>
+    
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ex: O que é Selic? ou Qual a diferença entre CDB e LCA?">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+
+    <div class="suggestions">
+        <small>Sugestões: </small>
+        <button onclick="setQuery('O que é diversificação?')">Diversificação</button>
+        <button onclick="setQuery('Explique o que é um Fundo Imobiliário')">FIIs</button>
+        <button onclick="setQuery('Risco vs Retorno')">Risco</button>
+    </div>
+</div>
+{% endblock %}
+
