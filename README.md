@@ -15,7 +15,7 @@ O **EduInvest AI** é um chatbot inteligente desenvolvido para democratizar o ac
 ## 🛠️ Tecnologias Utilizadas
 - **Backend:** Python 3.10+ com [Flask](https://flask.palletsprojects.com/)
 - **Frontend:** HTML5, CSS3 (Glassmorphism design) e JavaScript Assíncrono.
-- **Inteligência Artificial:** [Google Gemini API](https://ai.google.dev/) (Modelo 1.5 Flash)
+- **Inteligência Artificial:** [Google Gemini API](https://ai.google.dev/) (Modelo 3.0 Flash)
 - **Segurança:** Variáveis de ambiente com `python-dotenv`.
 
 ---
@@ -57,4 +57,5 @@ Este projeto foi idealizado para ser escalável e pode ser implementado em:
 👨‍💻 Autor
 Jones Costa
 Desenvolvido como parte de um projeto de transição de carreira para a área de TI, com foco em Automação Digital e IA.
+
 
